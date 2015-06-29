@@ -4,7 +4,7 @@ Languages is an API that allows you to easily make a multi-language website.
 ## How is it works
 
 When a users opens the website, the API will gets the user's country using  the `geoip_country_code_by_name` function from the **[GeoIP API][4]**. 
-Then the API searches the configuration files and gets the right language and then by using the user's language the API gets the right language. If the user has a language cookie, the API will ignore the first step and will get the right message using the user's language saved on the cookie.
+Then the API searches the configuration files and gets the right language and then by using the user's language the API gets the right message. If the user has a language cookie, the API will ignore the first step and will get the right message using the user's language saved on the cookie.
 
 ## Installing
 
@@ -12,7 +12,7 @@ Download the source..
 
 ## Configuration
 
-First of all you need to **configure the api**, the configuration is easy, you just need to **create two files**, one will be the **languages file**, and the other will be the **messages file**.
+First of all you need to **configurate the api**, the configuration is easy, you just need to **create two files**, one will be the **languages file**, and the other will be the **messages file**.
 
 #### Languages File
 
@@ -56,7 +56,7 @@ The messages' file structures:
 **Where**
 * **message_name** is the name you want to give to your message, it's also known has the identifier.
 * **lang1 and lang2** are the languages you defined on the languages file.
-* **Message (..) lang1 and lang2** are the message in the respective languages.
+* **Message (..) lang1 and lang2** are the messages in the respective languages.
 
 Here's an exemple:
 ```json
