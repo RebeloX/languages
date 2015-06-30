@@ -82,9 +82,17 @@ Here's an exemple:
 ```php
 <?php
 
-$message = new Languages;
+require_once('../vendor/autoload.php');
 
-echo $message->get("hello"); //note that the "hello" is the name of the message, a.k.a the identifier.
+use Language\Language;
+
+$language = new Language(array(
+	'languages_path' => __DIR__ . "/config/languages.json",
+	'messages_path' => __DIR__ . "/config/messages.json"
+	
+));
+
+echo $language->get('hello'); //note that the "hello" is the name of the message, a.k.a the identifier.
 
 ```
 
