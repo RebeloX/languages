@@ -1,0 +1,48 @@
+{
+	"hello": {
+		"pt_pt" : "Ola mundo",
+		"eng_us" : "Hello World",
+		"fr_fr" : "Bonjour le monde"
+	},
+	
+	"bye": {
+		"pt_pt" : "Adeus!",
+		"eng_us" : "Cyaa!"
+	},
+	
+	"title":{
+		"pt_pt": "Webiste - Seja bem vindo",
+		"eng_us": "Website - Welcome"	
+	},
+	
+	"welcome":{
+		"pt_pt": "Olá, seja bem vindo ao nosso website",
+		"eng_us": "Hi there, welcome to our website"
+	},
+	
+	"simple":{
+		"pt_pt": "Isto é um simples website onde poderás testar o uso da Language API",
+		"eng_us": "This is a simple website where you can test the use of the Language API"
+	},
+	
+	"find":{
+		"pt_pt": "Aqui tu irás encontrar o basic.php e o cookie.php juntos",
+		"eng_us": "Here you will find the basic.php and the cookie.php combined togther"
+	},
+	
+	"like":{
+		"pt_pt": "Eu espero que gostes!",
+		"eng_us": "I hope you like it!"
+	},
+	
+	"Portuguese":{
+		"pt_pt":"Português",
+		"eng_us":"Portuguese"
+	},
+	
+	"English":{
+		"pt_pt":"Inglês",
+		"eng_us":"English"
+	}
+	
+}
