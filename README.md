@@ -8,7 +8,16 @@ Then the API searches the configuration files and gets the right language and th
 
 ## Installing
 
-Download the source..
+Install using composer
+```json
+{
+    "require": {
+        "rebelox/languages": "^1.0"
+    }
+}
+```
+
+You can also [visit the releases][5] and **download** from there.
 
 ## Configuration
 
@@ -100,3 +109,4 @@ For now I don't have build tests available, I'm working on that...
   [2]:http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
   [3]:http://us3.php.net/manual/en/geoip.setup.php
   [4]:http://dev.maxmind.com/geoip/
+  [5]:https://github.com/RebeloX/languages/releases
