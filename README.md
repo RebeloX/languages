@@ -1,5 +1,5 @@
 # Languages 
-Languages is an API that allows you to easily make a multi-language website.
+Languages allows you to easily make a multi-language website.
 
 ## How is it works
 
