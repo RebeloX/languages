@@ -1,4 +1,4 @@
-# Languages 
+# Languages [![GitHub release](https://img.shields.io/github/release/rebelox/languages.svg)](https://github.com/RebeloX/languages/releases/tag/1.0.0)
 Languages allows you to easily make a multi-language website.
 
 ## How is it works
